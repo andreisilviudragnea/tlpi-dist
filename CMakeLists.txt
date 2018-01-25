@@ -7,4 +7,5 @@ include_directories(lib)
 add_compile_options(-Wall -Wextra -g)
 
 add_subdirectory(lib)
+add_subdirectory(daemons)
 add_subdirectory(signals)
