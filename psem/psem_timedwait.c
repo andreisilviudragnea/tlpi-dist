@@ -19,7 +19,7 @@
    On Linux, named semaphores are supported with kernel 2.6 or later, and
    a glibc that provides the NPTL threading implementation.
 */
-#define _POSIX_C_SOURCE 199309
+#define _POSIX_C_SOURCE 200112L
 #include <semaphore.h>
 #include <time.h>
 #include "tlpi_hdr.h"
