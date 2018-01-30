@@ -1,6 +1,3 @@
-set(THREADS_PREFER_PTHREAD_FLAG ON)
-find_package(Threads REQUIRED)
-
 add_executable(psem_create psem_create.c)
 target_link_libraries(psem_create tlpi Threads::Threads)
 
