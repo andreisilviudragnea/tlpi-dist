@@ -14,7 +14,8 @@ add_compile_options(
         -Wmissing-prototypes
         -Wstrict-prototypes
         -Wmissing-declarations
-        -O3)
+        -O3
+        -flto)
 
 add_subdirectory(lib)
 add_subdirectory(daemons)
@@ -23,3 +24,4 @@ add_subdirectory(pipes)
 add_subdirectory(svsem)
 add_subdirectory(psem)
 add_subdirectory(pshm)
+add_subdirectory(svshm)

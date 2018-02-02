@@ -1,0 +1,5 @@
+add_executable(svshm_xfr_reader svshm_xfr_reader.c)
+target_link_libraries(svshm_xfr_reader tlpi)
+
+add_executable(svshm_xfr_writer svshm_xfr_writer.c)
+target_link_libraries(svshm_xfr_writer tlpi)
